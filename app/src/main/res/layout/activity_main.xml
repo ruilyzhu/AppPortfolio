@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.ruily.portfolio.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/title_tips"
+        android:textColor="@color/title_color"
+        android:textSize="22sp"/>
+
+    <Button
+        android:id="@+id/btn_spotify"
+        style="@style/button_style"
+        android:text="@string/spotify_tips"
+        />
+
+    <Button
+        android:id="@+id/btn_scores"
+        style="@style/button_style"
+        android:text="@string/scores_tips"
+        />
+
+    <Button
+        android:id="@+id/btn_library"
+        style="@style/button_style"
+        android:text="@string/library_tips"
+        />
+
+    <Button
+        android:id="@+id/btn_build"
+        style="@style/button_style"
+        android:text="@string/build_it_bigger_tips"
+        />
+
+    <Button
+        android:id="@+id/btn_xyz"
+        style="@style/button_style"
+        android:text="@string/xyz_reader_tips"
+        />
+
+    <Button
+        android:id="@+id/btn_capstone"
+        style="@style/button_style"
+        android:text="@string/capstone_tips"
+        />
+</LinearLayout>
